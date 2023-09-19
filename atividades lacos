@@ -1,1 +1,54 @@
+// this is a js file
+// Anderson Miguel
 
+// Imprimindo Numeros
+
+let i = 0
+while (i < 10)
+{
+    console.log(i)
+    i++
+}
+
+/////////////////////////////////////////////////////
+// Exercícios de interpretação de código
+
+1. 
+// Ele executa os numeros entre os intervalos de 1 até 5.
+let valor = 0
+for(let i = 0; i < 5; i++) {
+valor += i
+}
+console.log(valor)
+
+//2.a
+//Vai imprimir os numeros maiores de 18, 19,21,23,25,27,30
+
+const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+for (let numero of lista) 
+{
+    if (numero > 18) 
+{
+    console.log(numero)
+}
+}
+//
+//2.b
+//usaria:
+ for (let numero = 18; numero > 18; numero++) {
+    console.log(numero)
+}
+
+3. 
+///
+const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
+let quantidadeAtual = 0
+while(quantidadeAtual < quantidadeTotal){
+let linha = ""
+for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
+linha += "*"
+}
+console.log(linha)
+quantidadeAtual++
+}
+//
